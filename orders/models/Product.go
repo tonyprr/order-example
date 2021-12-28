@@ -10,6 +10,6 @@ func (prod *Product) setId(id int) {
 	prod.id = id
 }
 
-func (prod Product) getId() {
+func (prod Product) getId() int {
 	return prod.id
 }
