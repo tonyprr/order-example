@@ -6,27 +6,27 @@ type Product struct {
 	category Category
 }
 
-func (prod *Product) setId(id int) {
+func (prod *Product) SetId(id int) {
 	prod.id = id
 }
 
-func (prod Product) getId() int {
+func (prod Product) GetId() int {
 	return prod.id
 }
 
-func (prod *Product) setCategory(category Category) {
+func (prod *Product) SetCategory(category Category) {
 	prod.category = category
 }
 
-func (prod Product) getCategory() Category {
+func (prod Product) GetCategory() Category {
 	return prod.category
 }
 
-func (prod *Product) setName(name string) {
+func (prod *Product) SetName(name string) {
 	prod.name = name
 }
 
-func (prod Product) getName() string {
+func (prod Product) GetName() string {
 	return prod.name
 }
 

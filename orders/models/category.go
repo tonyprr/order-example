@@ -5,18 +5,18 @@ type Category struct {
 	name string
 }
 
-func (cat *Category) setId(id int) {
+func (cat *Category) SetId(id int) {
 	cat.id = id
 }
 
-func (cat Category) getId() int {
+func (cat Category) GetId() int {
 	return cat.id
 }
 
-func (cat *Category) setName(name string) {
+func (cat *Category) SetName(name string) {
 	cat.name = name
 }
 
-func (cat Category) getName() string {
+func (cat Category) GetName() string {
 	return cat.name
 }
